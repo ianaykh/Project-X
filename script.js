@@ -6,6 +6,5 @@ $(function () {
         $('.tabs').find('.current').removeClass('current'); // find the tab with the current element(higlighted tab class and remove it)
         $(this).addClass('current'); // current tab is in the highlighted class 
         $(this.hash).slideDown("fast").siblings().hide();
-    })
-    // .first().click(); remove after testing
+    }).first().click(); 
 });
