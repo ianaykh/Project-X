@@ -1,0 +1,196 @@
+p {
+    font-family: "PT Serif", 'serif';
+    font-size: 20px;
+}
+
+.cap {
+    position: absolute;
+    text-align: center;
+    width: 130px;
+    background: black;
+    color: ghostwhite;
+    font-family: "PT Serif Caption", 'serif';
+}
+
+.icon-wrapper ul li {
+    display: inline;
+    padding: 15px;
+}
+
+.icon-wrapper ul li i:hover {
+    animation-name: bounce;
+    -webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    animation-duration: 2s;
+    color: black;
+}
+
+.icon-wrapper ul {
+    list-style: none;
+    font-size: 40px;
+}
+
+.lefty i {
+    font-size: 90px;
+}
+
+.icon-wrapper {
+    margin-top: 120px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-20px)
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-20px)
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#port h1,
+h2 {
+    background: lightblue;
+    text-align: center;
+}
+
+@-moz-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-20px)
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+div #port {
+    box-shadow: 0 0 5px 40px #fafafa;
+    border-radius: 20px;
+    padding: 30px;
+    background: #fafafa;
+}
+
+.lead {
+    margin-top: 50px;
+}
+
+.tab #me {
+    display: inline-block;
+    box-shadow: 0 0 10px 4px;
+}
+
+.lefty li {
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.fa-html5 {
+    background: #FFD464;
+    padding: 30px;
+    color: orangered;
+}
+
+.fa-css3 {
+    background: black;
+    padding: 30px;
+    color: lightblue;
+    width: 130px;
+}
+
+.panel-heading h2 {
+    font-size: 30px;
+}
+
+.panel {
+    font-family: "PT Serif", 'serif';
+}
+
+.navbar a,
+ul li {
+    color: black;
+}
+
+.navbar {
+    opacity: 0.95;
+}
+
+body {
+    background: #fff;
+    color: #555;
+}
+
+h1 {
+    color: chartreuse;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.tabs {
+    list-style: none;
+}
+
+.tabs li {
+    display: inline-block;
+}
+
+.navbar-brand,
+h1 {
+    font-family: 'PT Serif Caption', serif;
+}
+
+.tabs a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.tabs a.current {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+}
+
+.tab {
+    background: white;
+    padding: 2px;
+}
+
+.tab-content {
+    margin-top: 100px;
+}
+
+a:visited {
+    text-decoration: none;
+}
